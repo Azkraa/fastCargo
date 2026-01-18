@@ -659,7 +659,7 @@
         justify-content: center;
     }
 
-    /* 4. Footer Responsiveness */
+    /* Footer Responsiveness */
     .footer-container {
         grid-template-columns: 1fr;
         text-align: center;

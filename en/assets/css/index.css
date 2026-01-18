@@ -658,4 +658,20 @@
     .icon-wrap {
         justify-content: center;
     }
+
+    /* Footer Responsiveness */
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    /* Reset animations slightly for mobile so they don't hide content too long */
+    .reveal-left, .reveal-right {
+        transform: translateY(20px); /* Slide up instead of sideways on mobile */
+    }
 }
